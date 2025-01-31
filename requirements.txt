@@ -1,0 +1,57 @@
+## Requirements File for Big Data Transport Analytics Project
+
+### Core Dependencies
+```
+python==3.9
+pyspark==3.3.0
+kafka-python==2.0.2
+neo4j==5.3.0
+```
+
+### Data Processing & Streaming
+```
+pandas==1.5.3
+numpy==1.24.3
+requests==2.28.1
+google-transit==1.2.0
+```
+
+### Machine Learning & Graph Analysis
+```
+spark-nlp==4.2.4
+mlflow==2.1.1
+scikit-learn==1.2.2
+networkx==3.0
+graphframes==0.8.2
+```
+
+### Database & Storage
+```
+psycopg2-binary==2.9.5
+py2neo==2021.2.3
+```
+
+### Visualization & Monitoring
+```
+matplotlib==3.7.1
+seaborn==0.12.2
+grafana-client==0.0.10
+```
+
+### Messaging & Connectivity
+```
+paho-mqtt==1.6.1
+```
+
+### Miscellaneous
+```
+tqdm==4.65.0
+loguru==0.6.0
+```
+
+### Installation
+To install all dependencies, run:
+```sh
+pip install -r requirements.txt
+```
+
